@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style/style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <header id="cabecalho">
+        <h1>Formulário</h1>
+    </header>
+    <section class="section-formulario">
+        <form class="formulario">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" required placeholder="digite seu nome">
+            
+            <label for="email">E-mail: </label>
+            <input type="email" id="email" required placeholder="digite seu email">
+
+            <label for="password">Senha:</label>
+            <input type="password" id="password" required placeholder="digite sua senha"
+                minlength="8" maxlength="50" pattern="[A-Za-z0-9]+">
+                
+            <label for="password">confirme a senha: </label>
+            <input type="password" id="confirmPassword" required placeholder="digite sua senha"
+                minlength="8" maxlength="50" pattern="[A-Za-z0-9]+">
+            <div class="box">
+                <input type="checkbox" id="checkbox" required>
+                <label for="checkTerms" class="checkTerms">Eu li e aceito os Termos de Uso e a Política de Privacidade</label>
+            </div>
+            <div class="botao">
+                <button type="submit" class="btn">Enviar</button>
+            </div>
+        </form> 
+    </section>
+
+    <footer id="rodape"><p>Desenvolvido por <a href="https://github.com/devMarino">Marcelo Marino</a> &copy;, 2026</p></footer>
+    <script src="./src/js/script.js"></script>
+</body>
+</html>

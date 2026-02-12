@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.849);
+    /* Header */
+    /* Section */
+    /* Footer */                
+}
+#cabecalho{
+    width: 100vw;
+    background-color: #000000d0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5em;
+}
+#cabecalho h1{
+    color: rgba(254, 175, 16, 0.963);
+    font-size: 50px;
+}
+
+.section-formulario{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    /* centraliza centro + body */
+}
+.formulario{
+    margin: 1rem;
+    padding: 1em;
+    background-color: #000000d0;
+    margin-top: 1em;
+    display: flex;
+    width: 500px;
+    height: 350px;
+    flex-direction: column;
+}
+label {
+    color: aliceblue;
+    margin-top: 10px;
+}
+#name{
+    width: 95%;
+    padding: 5px;
+}
+#email{
+    width: 95%;
+    padding: 5px;
+}
+#password{
+    width: 95%;;   
+    padding: 5px;
+}
+
+#confirmPassword{
+    width: 95%;
+    padding: 5px;
+}
+
+.box {
+    display: flex;
+    text-align: start;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.checkTerms {
+    margin: 5px;
+    padding: 5px;
+    font-size: 10px;
+}
+.botao{
+    display: flex;
+    justify-content: flex-end;
+}
+.btn {
+    width: 100px;
+    padding: 4px;
+    
+}
+
+#rodape{
+    background-color: #000000d0;
+    display: flex;
+    flex-direction:row;
+    text-align: center;
+    justify-content: center;
+}
+
+#rodape p {
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    font-style:unset
+}
+
+#rodape a {
+    text-decoration: none;
+    color: rgba(254, 175, 16, 0.963);
+}
