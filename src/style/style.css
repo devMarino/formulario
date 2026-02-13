@@ -42,6 +42,11 @@ body{
     height: 350px;
     flex-direction: column;
 }
+.form-text {
+    color: aliceblue;
+    text-align: center;
+    font-size: 25;
+}
 label {
     color: aliceblue;
     margin-top: 10px;

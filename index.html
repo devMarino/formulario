@@ -12,6 +12,9 @@
     </header>
     <section class="section-formulario">
         <form class="formulario">
+            <div class="form-text">
+                <h2>Cadastre</h2>
+            </div>
             <label for="name">Nome:</label>
             <input type="text" id="name" required placeholder="digite seu nome">
             
@@ -20,14 +23,14 @@
 
             <label for="password">Senha:</label>
             <input type="password" id="password" required placeholder="digite sua senha"
-                minlength="8" maxlength="50" pattern="[A-Za-z0-9]+">
+                minlength="6" maxlength="50" pattern="[A-Za-z0-9]+">
                 
             <label for="password">confirme a senha: </label>
             <input type="password" id="confirmPassword" required placeholder="digite sua senha"
-                minlength="8" maxlength="50" pattern="[A-Za-z0-9]+">
+                minlength="6" maxlength="50" pattern="[A-Za-z0-9]+">
             <div class="box">
                 <input type="checkbox" id="checkbox" required>
-                <label for="checkTerms" class="checkTerms">Eu li e aceito os Termos de Uso e a Política de Privacidade</label>
+                <label for="checkbox" class="checkTerms">Eu li e aceito os Termos de Uso e a Política de Privacidade</label>
             </div>
             <div class="botao">
                 <button type="submit" class="btn">Enviar</button>
